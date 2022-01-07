@@ -9,7 +9,7 @@ A MATLAB & Simulink implementation of the forward and inverse dynamics solutions
 
 ## Prerequisites
 
-## System Object `Transmission.m`
+## System Object [Transmission.m](https://github.com/RViMLab/TRO2021-Dynamic-Modelling/blob/main/Transmission.m) 
 
 ## Simulation Examples
 
