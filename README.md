@@ -1,3 +1,3 @@
 # TRO2021-Dynamic-Modelling
 
-A MATLAB & Simulink implementation of the forward and inverse solutions for the dynamics of mechanisms driven by screw-based transmission systems.
+A MATLAB & Simulink implementation of the forward and inverse dynamics solutions for mechanisms driven by screw-based transmission systems.
