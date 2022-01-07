@@ -5,4 +5,4 @@ A MATLAB & Simulink implementation of the forward and inverse dynamics solutions
 ## Relevant Publications
 
 1. A. Mablekos-Alexiou, L. da Cruz, and C. Bergeles, "Friction-Inclusive Modeling of Sliding Contact Transmission Systems in Robotics," *IEEE Transactions on Robotics*, vol. 37, no. 4, pp. 1252-1267, 2021
-2. A. Mablekos-Alexiou, L. da Cruz, and C. Bergeles, "On the Geometry and Dynamics of the 4-DoF Serial Spherical Mechanism," *IEEE International Conference on Robotics and Automation*, 2022 (under review).
+2. A. Mablekos-Alexiou, L. da Cruz, and C. Bergeles, "On the Geometry and Dynamics of the 4-DoF Serial Spherical Mechanism," in *IEEE International Conference on Robotics and Automation*, 2022 (under review).
