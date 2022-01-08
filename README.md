@@ -26,7 +26,7 @@ The package requires the MATLAB Signal Processing, Optimization, and Robotics Sy
 
 * `actuation` - Property that contains some actuation parameters of a screw-based drive, including the motor nominal torque and torque constant as well as the encoder counts. The parameter values are assigned to the corresponding fields with names `nominalTorque`, `torqueCst`, and `encoderCounts`. Assigning values to the fields of that structure is optional and not needed for the simulation. However, it can prove useful in case experimental data, e.g., motor currents and encoder signals, are used for model verification.
 
-Ultimately, `Transmission` can be used in a model to simulate in Simulink by defining the `setupImpl` and `stepImpl` methods. Both methods perform calculations by calling a series of static methods, which implement the corresponding system dynamics, as described in [[1]](https://ieeexplore.ieee.org/abstract/document/9353237).
+`Transmission` can be used in a model to simulate in Simulink by defining the `setupImpl` and `stepImpl` methods. Both methods perform calculations by calling a series of static methods, which implement the corresponding system dynamics, as described in [[1]](https://ieeexplore.ieee.org/abstract/document/9353237).
 
 ## Simulation Examples
 
