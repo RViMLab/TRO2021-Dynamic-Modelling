@@ -16,7 +16,8 @@ The package requires the MATLAB Signal Processing, Optimization, and Robotics Sy
 
 [Transmission.m](https://github.com/RViMLab/TRO2021-Dynamic-Modelling/blob/main/Transmission.m) defines the `Transmission` class. This class encapsulates all the dynamics related data of a screw-based drive and the operations performed on that data for use in Simulink. The five basic public properties of this class, each predefined as a structure array with values set to zero, are the following
 
-* `geometry` -
+* `geometry` - Property that contains the geometric parameters of a screw-based drive, including the drive type, the input element lead and lead angle, the diameter of the input element, the diameter of the output element in the case of the worm drive, the reduction ratio, and the thread and pressure angles. The value for the drive type, where `1` corresponds to the simple lead screw drive, `2` to the antibacklash lead screw drive, and `3` to the worm drive, is assigned to the field with name `type`. The rest geometric values are assigned to the corresponding fields with names `lead`, `leadAngle`, `inElemDia`, `outElemDia`, `reductionRatio`, `threadAngle`, and \texttt{pressureAngle}. For the simple and antibacklash lead screw drives, the value to `outElemDia` is left zero. Note that the lead, lead angle, input and output element diameters, and the reduction ratio are parameters that are correlated for a screw-based drive. The user must provide values only for the necessary number of parameters so as not to under- or over-define the geometry of the system.
+
 * `preload` - 
 * `friction` - 
 * `inertia` - 
