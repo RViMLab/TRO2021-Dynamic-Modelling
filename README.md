@@ -32,4 +32,6 @@ The package requires the MATLAB Signal Processing, Optimization, and Robotics Sy
 
 ### Single-DoF Dynamics Verification
 
+The script [sd_1dof.m](https://github.com/RViMLab/TRO2021-Dynamic-Modelling/blob/main/sd_1dof.m), which needs to be run first, creates three `Transmission` instances, each enclosing the parameters of the respective single-DoF mechanism that has been tested in [[1]](https://ieeexplore.ieee.org/abstract/document/9353237). Each object can then be added to [simINVD_1dof.slx](https://github.com/RViMLab/TRO2021-Dynamic-Modelling/blob/main/simINVD_1dof.slx) or [simFWD_1dof.slx](https://github.com/RViMLab/TRO2021-Dynamic-Modelling/blob/main/simFWD_1dof.slx) for simulating the inverse or the forward dynamics of the corresponding drive, respectively. Finally, the scripts [id_1dof_static.m](https://github.com/RViMLab/TRO2021-Dynamic-Modelling/blob/main/id_1dof_static.m) and [id_1dof_dyn.m](https://github.com/RViMLab/TRO2021-Dynamic-Modelling/blob/main/id_1dof_dyn.m) are examples of the static and dynamic identification framework, respectively. Data used for the identification are listed in the [experiments]() folder and read using the [getEposData.m](https://github.com/RViMLab/TRO2021-Dynamic-Modelling/blob/main/getEposData.m) function.
+
 ### Inverse Dynamics Calculations of the 4-DoF Serial Spherical Mechanism
