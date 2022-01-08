@@ -10,6 +10,8 @@ A MATLAB & Simulink implementation of the forward and inverse dynamics solutions
 
 ## Prerequisites
 
+The package requires the MATLAB Signal Processing, Optimization, and Robotics System Toolbox.
+
 ## System Object [Transmission.m](https://github.com/RViMLab/TRO2021-Dynamic-Modelling/blob/main/Transmission.m) 
 
 ## Simulation Examples
