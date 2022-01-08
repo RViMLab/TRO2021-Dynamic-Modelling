@@ -12,7 +12,15 @@ A MATLAB & Simulink implementation of the forward and inverse dynamics solutions
 
 The package requires the MATLAB Signal Processing, Optimization, and Robotics System Toolbox.
 
-## System Object [Transmission.m](https://github.com/RViMLab/TRO2021-Dynamic-Modelling/blob/main/Transmission.m) 
+## System Object [Transmission.m](https://github.com/RViMLab/TRO2021-Dynamic-Modelling/blob/main/Transmission.m)
+
+[Transmission.m](https://github.com/RViMLab/TRO2021-Dynamic-Modelling/blob/main/Transmission.m) defines the `Transmission` class. This class encapsulates all the dynamics related data of a screw-based drive and the operations performed on that data for use in Simulink. The five basic public properties of this class, each predefined as a structure array with values set to zero, are the following
+
+* `geometry` -
+* `preload` - 
+* `friction` - 
+* `inertia` - 
+* `actuation` - 
 
 ## Simulation Examples
 
