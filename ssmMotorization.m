@@ -23,7 +23,7 @@ stepSize = 0.01;
 %% Inverse Dynamics Simulation
 tic; sim('simINVD_ssm.slx'); toc
 
-% Plots
+%% Plots
 
 figure('Name', 'Robot Joints')
 subplot(511)
