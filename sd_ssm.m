@@ -29,7 +29,6 @@ kinFriction = [0.12; 0.12; 0.14];
 
 strbInf = [0; 0; 0];
 strbVelocity = [0; 0; 0];
-
 risingCst = [0; 0; 0];
 memoryCst = [0; 0; 0];
 
