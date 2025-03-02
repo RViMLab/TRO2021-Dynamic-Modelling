@@ -4,6 +4,7 @@
 alpha12 = 30*pi/180;
 alpha13 = -23*pi/180;
 
+% Create SSM Joints
 jnt1 = rigidBodyJoint('jnt1','revolute');
 jnt1.PositionLimits = [-pi/2 pi/2];
 jnt1.HomePosition = 0;
@@ -48,6 +49,7 @@ body4.Mass = 0.09964338;
 body4.CenterOfMass = [-0.05202274 0.00001760 0.10978168];
 body4.Inertia = [0.00123747 0.00168529 0.00045452 0.00000019 -0.00051857 -0.00000010];
 
+% Create SSM
 robot = rigidBodyTree('DataFormat','row');
 robot.Gravity = [0 0 -9.81];
 base = robot.BaseName;
