@@ -61,9 +61,7 @@ addBody(robot,body4,'body3')
 %% Visualizations
 
 % showdetails(robot)
-% 
 % comPos = centerOfMass(robot);
-% 
 % figure('Name', 'Robot Configuration')
 % show(robot);
 % hold on
