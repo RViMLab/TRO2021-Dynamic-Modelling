@@ -97,9 +97,7 @@ function [timeStamps, simTime] = getTimes(maxAccel, maxVel, posLim)
 end
 
 function y = rndeven(x)
-
     x = ceil(x);
     x(x <= 1) = 2;
     y = mod(x,2)+x;
-    
 end
